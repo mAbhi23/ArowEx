@@ -1,4 +1,4 @@
-package com.example.arowex;
+package com.example.arowex.login;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -11,6 +11,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.example.arowex.R;
 import com.google.android.material.textfield.TextInputEditText;
 
 public class activity_register extends AppCompatActivity {
@@ -80,7 +81,7 @@ public class activity_register extends AppCompatActivity {
     }
 
     public void viewLoginClicked(View v){
-        Intent intent = new Intent(activity_register.this,MainActivity.class);
+        Intent intent = new Intent(activity_register.this, MainActivity.class);
         startActivity(intent);
 
     }

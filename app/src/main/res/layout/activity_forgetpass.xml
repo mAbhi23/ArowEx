@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     style="@style/loginParent"
-    tools:context=".activity_forgetpass">
+    tools:context=".login.activity_forgetpass">
     <ScrollView
         style="@style/parent">
 

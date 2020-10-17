@@ -1,14 +1,51 @@
 <resources>
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="DarkTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
-        <item name="windowActionBar">false</item>
-        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">#282C34</item>
+        <item name="colorPrimaryDark">#071724</item>
+        <item name="colorAccent">#60A7BC</item>
+        <item name="bottomTextColor">#B2B2B2</item>
+        <item name="bottomSelectedTextColor">#60A7BC</item>
+        <item name="bottom_nav_icon_bg">#B2B2B2</item>
+        <item name="colorBottomBar">#B2B2B2</item>
+        <item name="colorBottomBarbg">#282C34</item>
+        <item name="appbackground">#000000</item>
+        <item name="seacrhBg">#071724</item>
+        <item name="seacrhTextColor">#2c4155</item>
+        <item name="textColor">#ffffff</item>
+        <item name="navButtonbg">#49515f</item>
+
+
     </style>
-    <!--designs for login and register-->
+
+    <style name="LightTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#000000</item>
+        <item name="colorPrimaryDark">#000000</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="bottomTextColor">@color/colorAccent</item>
+        <item name="bottomSelectedTextColor">@color/colorAccent</item>
+        <item name="bottom_nav_icon_bg">#FFFFFF</item>
+        <item name="colorBottomBar">#FFFFFF</item>
+        <item name="colorBottomBarbg">#FFFFFF</item>
+        <item name="appbackground">#FFFFFF</item>
+        <item name="seacrhBg">#071724</item>
+        <item name="seacrhTextColor">#2c4155</item>
+        <item name="textColor">#000000</item>
+        <item name="navButtonbg">#49515f</item>
+
+    </style>
+
+    <style name="BottomNavigationView" parent="@style/TextAppearance.AppCompat.Caption">
+        <item name="android:textSize">9sp</item>
+        <item name="android:textColor">?attr/bottomTextColor</item>
+    </style>
+
+    <style name="BottomNavigationView.Active" parent="@style/TextAppearance.AppCompat.Caption">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">?attr/bottomSelectedTextColor</item>
+    </style>
+
     <style name="parent">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
@@ -48,9 +85,9 @@
     </style>
 
     <style name="loginButton" parent="viewParent">
-        <item name="android:background">@drawable/ic_login_bk</item>
-        <item name="android:textColor">@color/whiteTextColor</item>
-        <item name="android:textStyle">bold</item>
-    </style>
 
+    <item name="android:background">@drawable/ic_login_bk</item>
+    <item name="android:textColor">@color/whiteTextColor</item>
+    <item name="android:textStyle">bold</item>
+    </style>
 </resources>

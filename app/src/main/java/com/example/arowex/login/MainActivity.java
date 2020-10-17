@@ -1,4 +1,4 @@
-package com.example.arowex;
+package com.example.arowex.login;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -10,6 +10,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
+import com.example.arowex.R;
 import com.google.android.material.textfield.TextInputEditText;
 
 public class MainActivity extends AppCompatActivity {
@@ -76,13 +77,13 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void viewRegisterClicked(View v){
-        Intent intent = new Intent(MainActivity.this,activity_register.class);
+        Intent intent = new Intent(MainActivity.this, activity_register.class);
         startActivity(intent);
 
     }
 
     public void viewForgetPassClicked(View v){
-        Intent intent = new Intent(MainActivity.this,activity_forgetpass.class);
+        Intent intent = new Intent(MainActivity.this, activity_forgetpass.class);
         startActivity(intent);
     }
 
